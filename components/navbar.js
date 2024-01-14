@@ -110,7 +110,7 @@ const Navbar = props => {
                   as={Link}
                   href="https://github.com/veldanava"
                 >
-                  Gwithub ^w^
+                  Github
                 </MenuItem>
               </MenuList>
             </Menu>
