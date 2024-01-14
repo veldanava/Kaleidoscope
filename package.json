@@ -1,0 +1,47 @@
+{
+  "name": "kiana",
+  "version": "1.0.0",
+  "description": "portfolio website",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Kiana Kaslana",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.9",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^6.5.1",
+    "next": "^12.3.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-pdf": "^5.7.2",
+    "sharp": "^0.31.3",
+    "swr": "^2.0.3",
+    "three": "^0.139.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-next": "^12.1.5",
+    "prettier": "^2.6.2"
+  },
+  "main": "next.config.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishwas-10/Vishwas-s-Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vishwas-10/Vishwas-s-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Vishwas-10/Vishwas-s-Portfolio#readme"
+}
