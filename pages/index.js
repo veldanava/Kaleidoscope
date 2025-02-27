@@ -41,7 +41,7 @@ const Home = () => (
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1}>
           <Heading as="h2" variant="page-title">
-            Iqi
+            Qi Dimitry
           </Heading>
           <p>Fullstack Developer and Cybersecurity Practitioner</p>
         </Box>
@@ -77,14 +77,14 @@ const Home = () => (
           About
         </Heading>
         <Paragraph>
-          Hello! 👋 Im a Fullstack Developer, Cybersecurity Practitioner, UI/UX Designer and Founder of KitaJualin.
+          Hello! 👋 Im a Software Engineer, Cybersecurity Specialist, UI/UX Designer, Graphic Designer & Video Editor.
           <br></br>
           When Im not coding, I played some PUBG Mobile matches, watching a korean drama and read some novels or books.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
+              My Best Projects
             </Button>
           </NextLink>
         </Box>
@@ -118,6 +118,8 @@ const Home = () => (
         <Heading as="h3" variant="section-title">
           Achievements
         </Heading>
+        <section>- Junior Web Programmer, BNSP Jakarta</section>
+        <section>- Computer Operator, PPKD Jakarta</section>
         <section>- CyberSecurity Fundamentals, IBM</section>
         <section>- Experts Cryptography, Cyber Academy</section>
         <section>- Virtual Internship Back-End Developer, AEON Credit Services</section>
@@ -153,7 +155,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="https://www.instagram.com/alexanderdimmitri" target="_blank">
+            <Link href="https://www.instagram.com/kiidimitry_" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -168,7 +170,7 @@ const Home = () => (
         <Box align="center" my={4}>
           <NextLink href="#" passHref scroll={false}>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-            <a href="#">Download My Resume</a> 
+            <a href="https://drive.google.com/file/d/16c9-7EbELq4Bc6RuvXMmulzEGKf8dsZy/view?usp=sharing">Download My Resume</a> 
             </Button>
           </NextLink>
         </Box>
